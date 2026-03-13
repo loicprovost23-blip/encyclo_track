@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Encyclo-Track | Circuits Européens</title>
+
+<style>
+
+body{
+background:#050910;
+margin:0;
+font-family:Arial;
+color:white;
+text-align:center;
+}
+
+.map-container{
+position:relative;
+width:900px;
+margin:auto;
+}
+
+.map-container img{
+width:100%;
+}
+
+.marker{
+position:absolute;
+width:14px;
+height:14px;
+background:#00eaff;
+border-radius:50%;
+box-shadow:0 0 10px #00eaff;
+cursor:pointer;
+}
+
+.marker:hover{
+transform:scale(1.5);
+background:#ff3c3c;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Circuits Européens</h1>
+<p>Cliquez sur un pays pour découvrir ses circuits</p>
+
+<div class="map-container">
+
+<img src="europe_map.png">
+
+<!-- France -->
+<a href="france.html">
+<div class="marker" style="top:430px; left:420px;"></div>
+</a>
+
+<!-- Italie -->
+<a href="italie.html">
+<div class="marker" style="top:500px; left:520px;"></div>
+</a>
+
+<!-- Allemagne -->
+<a href="allemagne.html">
+<div class="marker" style="top:360px; left:470px;"></div>
+</a>
+
+<!-- Espagne -->
+<a href="espagne.html">
+<div class="marker" style="top:520px; left:360px;"></div>
+</a>
+
+<!-- Royaume-Uni -->
+<a href="uk.html">
+<div class="marker" style="top:300px; left:360px;"></div>
+</a>
+
+</div>
+
+</body>
+</html>
