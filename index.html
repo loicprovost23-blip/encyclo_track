@@ -1,107 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 <meta charset="UTF-8">
-<title>Encyclo-Track</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Site</title>
 
 <style>
 
-body{
+body, html{
 margin:0;
-font-family:Arial;
-background:#0b1220;
-color:white;
+padding:0;
+font-family:Arial, sans-serif;
 }
 
-/* header */
-
-header{
-position:absolute;
-width:100%;
-padding:20px;
-text-align:center;
-font-size:50px;
-color:white;
-font-weight:bold;
-letter-spacing:2px;
-
-}
-
-/* hero image */
-
+/* bannière plein écran */
 .hero{
 height:100vh;
-background-image:url("hero2.jpg");
-background-repeat: no-repeat;
-background-size:80%;
+background-image:url("banniere.jpg");
+background-size:cover;
 background-position:center;
 display:flex;
-flex-direction:column;
 align-items:center;
 justify-content:center;
-text-align:center;
 }
 
-/* texte hero */
-
+/* titre */
 .hero h1{
-font-size:50px;
-margin:10px;
-}
-
-.hero p{
-font-size:20px;
-opacity:0.8;
-}
-
-/* bouton */
-
-.button{
-margin-top:500px;
-padding:15px 40px;
-border:2px solid white;
-border-radius:40px;
-text-decoration:none;
 color:white;
-transition:0.3s;
-}
-
-.button:hover{
-background:white;
-color:black;
-}
-
-/* sections */
-
-.section{
-padding:80px 10%;
-text-align:center;
-}
-
-.circuits{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:40px;
-margin-top:40px;
-}
-
-.card{
-background:#121b2f;
-padding:30px;
-border-radius:15px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-footer{
-padding:40px;
-text-align:center;
-opacity:0.5;
+font-size:60px;
+background:rgba(0,0,0,0.5);
+padding:20px 40px;
+border-radius:10px;
 }
 
 </style>
@@ -109,24 +38,9 @@ opacity:0.5;
 
 <body>
 
-<header>
-
-</header>
-
-<div class="hero">
-
-<h1>L’empreinte du tracé</h1>
-
-<p>
-Géomatique &nbsp&nbsp&nbsp&nbsp&nbsp• &nbsp&nbsp&nbsp&nbspHistoire &nbsp&nbsp&nbsp&nbsp&nbsp• &nbsp&nbsp&nbspModélisme
-</p>
-
-
-<p><a href="track.html"style="color:white;"<a class="button" >explorer les circuits</a></p>
-
-
-</div>
-
+<section class="hero">
+<h1>Bienvenue sur mon site</h1>
+</section>
 
 </body>
 </html>
